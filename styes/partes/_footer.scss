@@ -1,0 +1,107 @@
+
+.footer{
+    padding: 60px 0px 0px;
+
+    &-offers{
+        padding-bottom: 20px;
+    }
+
+    &-text{
+        color: rgb(181, 179, 179);
+        padding-top: 10px;
+    }
+
+    &-icons{
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-between;
+
+        &-item{
+            text-align: center;
+        }
+
+        i{
+            font-size: 50px;
+            color: $eci-color;
+        }
+
+        p{
+            padding-top: 10px;
+        }
+    }
+
+    &-anuncios{
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        img{
+            width: 330px;
+        }
+    }
+
+    &-info{
+        display: flex;
+        justify-content: space-between;
+
+        &-list{
+            text-align: center;
+
+            .list-title{
+                color: $eci-color;
+                padding-top: 60px;
+                font-size: 25px;
+            }
+            li{
+                padding-top: 10px;
+            }
+
+        }
+    }
+
+    &-additional{
+        padding-top: 200px;
+        &-info{
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+            
+            .ventajas{
+                display: flex;
+                
+                div{
+                    padding-left: 100px;
+                }
+            }
+
+            .tripadvisor{
+                width: 200px;
+                float:inline-end
+            }
+
+        }
+        &-logos{
+            padding: 40px 0px;
+            display: flex;
+            justify-content: space-between;
+
+            .logo{
+                .reservados{
+                    font-size: 10px;
+                    color: rgb(185, 185, 185);
+                }
+            }
+
+            .social{
+                width: 200px;
+                &-icons{
+                    display: flex;
+                    gap: 5px;
+                    font-size: 30px;
+                    color: $eci-color;
+                }
+            }
+        }
+    }
+
+}

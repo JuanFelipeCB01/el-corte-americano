@@ -1,0 +1,53 @@
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &-panel{
+        padding-top: 20px;
+        border: 1px;
+        width: 500px;
+
+        img{
+            width: 500px;
+        }
+
+        &-contenido{
+            padding: 10px;
+
+            h2{
+                font-size: 25px;
+            }
+            &-texto{
+                font-size: 12px;
+                color: gray;
+            }
+
+            .info{
+                padding-top: 60px;
+                display: flex;
+                justify-content: space-between;
+
+                &-content{
+                    &-title{
+                        font-size: 12px;
+                        color: gray;
+                    }
+                    &-precio{
+                        color: $eci-color;
+                        font-size: 25px;
+                    }
+                }
+
+                button{
+                    background-color: whitesmoke;
+                    border: 1px solid $eci-color;
+                    color: $eci-color;
+                    font-size: 15px;
+                    padding: 5px 25px;
+                }
+            }
+        }
+    }
+}
